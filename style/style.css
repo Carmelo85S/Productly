@@ -126,7 +126,7 @@ a{
 header{
     display: flex;
     align-items: center;
-    width: 100%; /* Cambiato da larghezza fissa a 100% */
+    width: 100%;
     height: 78px;
     padding-top: 20px;
     background-color: #FFFFFF;
