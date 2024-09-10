@@ -3,11 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/style.css">
-    <title>Productifly</title>
+    <title>Productly</title>
 </head>
 <body>
-    
+    <header>
+        <section class="logo__container">
+            <img src="image/logo.svg" class="logo" alt="Productly logo">
+        </section>
+        <nav class="navigation__container">
+            <ul class="link__container">
+                <li class=nav__link-list><a href="#" class="nav__link poppins-regular">Product</a></li>
+                <li class=nav__link-list><a href="#" class="nav__link poppins-regular">Customers</a></li>
+                <li class=nav__link-list><a href="#" class="nav__link poppins-regular">Pricing</a></li>
+                <li class=nav__link-list><a href="#" class="nav__link poppins-regular">Resources</a></li>
+            </ul>
+                <button href="#" class="sign__in poppins-semi-bold">Sign In</button>
+                <button href="#" class="sign__up poppins-semi-bold">Sign Up</button>
+        </nav>
+    </header>
+
+    <!--Hero Section-->
+    <section class="flex">
+        <section class="hero__section">
+            <h1 class="hero__section-heading poppins-bold">
+                The Design Thinking superpowers
+            </h1>
+            <p class="hero__section-info poppins-regular">
+                Tools, tutorials, design and innovation experts, all in one place! 
+                The most intuitive way to imagine your next user experience.
+            </p>
+            <section class="hero__section-cta">
+                <button class="get__started poppins-bold">
+                    Get started
+                </button>
+                <div class="triangle"></div>
+                <a href="#" class="link__cta poppins-semi-bold">Watch the video</a>
+            </section>
+        </section>
+        <img src="image/hero-img.png" class="hero__img" alt="people manifesting happiness">
+    </section>
+
+    <!--Feature Section-->
+        <section class="feature__section flex j__center a__center">
+            <h2 class="feature__section-heading poppins-bold">
+                We design tools to unveil<br>your superpowers
+            </h2>
+        </section>
+            <section class="flex j__center a__center col">
+                <section class="feature__card-container">
+                    <div class="card">
+                        <img src="image/first-click.png" class="card__icon" alt="card icon">
+                        <h3 class="card__title poppins-semi-bold">
+                            First click test
+                        </h3>
+                        <p class="card__info poppins-medium">
+                            While most people enjoy casino gambling,
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="image/design-surveys.png" class="card__icon" alt="card icon">
+                        <h3 class="card__title poppins-semi-bold">
+                            Design surveys
+                        </h3>
+                        <p class="card__info poppins-medium">
+                            Sports betting, lottery and bingo playing for the fun
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="image/perference-test.png" class="card__icon" alt="card icon">
+                        <h3 class="card__title poppins-semi-bold">
+                            Preference test
+                        </h3>
+                        <p class="card__info poppins-medium">
+                            The Myspace page defines the individual.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="image/five-seconds-test.png" class="card__icon" alt="card icon">
+                        <h3 class="card__title poppins-semi-bold">
+                            Five seconds test
+                        </h3>
+                        <p class="card__info poppins-medium">
+                            Personal choices and the overall personality of the person. 
+                        </p>
+                    </div>
+                </section>
+                <button class="feature__section-cta poppins-bold">
+                    SIGN UP NOW
+                </button>
+            </section>
 </body>
 </html>

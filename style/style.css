@@ -1,0 +1,269 @@
+@font-face {
+    font-family: "Gotham";
+    src: url("../font/Gotham\ Bold\ Regular.ttf");
+}
+@font-face {
+    font-family: "Proxima-Nova";
+    src: url("../font/proximanova_regular.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.poppins-regular{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-bold{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.poppins-semi-bold{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-medium{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.flex{
+    display: flex;
+}
+
+.j__center{
+    justify-content: center;
+}
+
+.a__center{
+    align-items: center;
+}
+.col{
+    flex-direction: column;
+}
+/*Header*/
+
+header{
+    display: flex;
+    align-items: center;
+    width: 1400px;
+    height: 78px;
+    margin-top: 20px;
+}
+
+.logo__container{
+    margin-left: 144px;
+}
+
+.logo{
+    width: 136px;
+    height: 82px;
+}
+
+.navigation__container {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.link__container {
+    display: flex;
+    list-style: none;
+}
+
+.nav__link-list{
+    padding:20px
+}
+
+.nav__link{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 28px;
+    color:#2F281E;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav__link:hover{
+    transform: translate(1px,5px);
+}
+
+.auth__buttons{
+    display: flex;
+    justify-content: center;
+    margin-right: 144px;
+}
+
+.sign__in,
+.sign__up{
+    padding: 11px 25px;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    color:#173A56;
+    margin-left: 45px;
+    margin-top: 15px;
+    margin-bottom: 17px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.sign__in:hover{
+    background-color: #FF9900;
+    color:#FFFFFF;
+}
+
+.sign__up{
+    margin-right: 145px;
+    margin-left: 14px;
+    background-color: #FF9900;
+    color: #FFFFFF;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.sign__up:hover,
+.get__started:hover{
+    background-color: #dc5c29;
+}
+
+/*Hero section*/
+
+.hero__section{
+    max-width: 518px;
+    width: 100%;
+    height: 331px;
+    margin:113px 0 0 145px;
+}
+
+.hero__section-heading{
+    font-size: 44px;
+    color:#2F281E;
+    line-height: 54px;
+}
+
+.hero__section-info{
+    max-width: 458px;
+    width: 100%;
+    font-size: 18px;
+    color: #544837;
+    line-height: 28px;
+    margin-top: 30px;
+}
+
+.hero__section-cta{
+    position:relative;
+    max-width: 366px;
+    width: 100%;
+    height: 53px;
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.get__started{
+    padding:14px 41px;
+    background-color: #FF9900;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 45px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.link__cta{
+    color:#FF9900;
+    transition: color 0.3s ease-in-out;
+}
+
+.link__cta:hover{
+    color:#dc5c29;
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-bottom: 17px solid #FF9900;
+    transform: rotate(90deg);
+    border-radius: 1.13px;
+    margin-right: 8.5px;
+    position:absolute;
+    right:130px;
+    bottom: -23px;
+}
+
+.hero__img{
+    width: 605px;
+    height: 496px;
+    margin-top: 30px;
+    margin-right: 129px;
+}
+
+/*Features section*/
+.feature__section{
+    margin-top: 110px;
+}
+
+.feature__section-heading{
+    font-size: 36px;
+    text-align: center;
+    color:#2F281E;
+}
+
+.feature__card-container{
+    max-width: 1095px;
+    height: 204px;
+    width: 100%;
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    min-width: 240px;
+    width: 100%;
+}
+
+.card__title{
+    font-size: 22px;
+    color:#2F281E;
+    margin-top: 30px;
+}
+
+.card__info{
+    margin-top: 30px;
+    margin-right: 46px;
+    max-width:240px;
+    width: 100%;
+    height: 178px;
+    color:#544837;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.feature__section-cta{
+    font-size: 16px;
+    color:#FFFFFF;
+    padding: 15px 32px;
+    background-color: #FF9900;
+    border: none;
+    border-radius: 4px;
+    margin-top: 34px;
+    transition: 0.3s ease-in-out;
+}
+
+.feature__section-cta:hover{
+    transform: scale(1.1);
+}
+
+/*Effortless validation*/
