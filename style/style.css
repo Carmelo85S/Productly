@@ -289,6 +289,9 @@ header{
 }
 
 .feature__section-heading{
+    max-width: 539px;
+    width: 100%;
+    min-height: 108px;
     font-size: 36px;
     text-align: center;
 }
